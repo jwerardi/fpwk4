@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Final Project</title>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="finalProject.css" />
+        <script src="libraries/three.js"></script>
+        <link rel="stylesheet" type="text/css" href="libraries/semantic/semantic.min.css">
+        <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+        <script src="libraries/semantic/semantic.min.js"></script>
+        
+        <script src="js/houseFunctions.js"></script>
+        <script src="js/finalProjectMain.js"></script>
+    </head>
+    <body>
+
+        <div>
+            <!-- <button id="showFront" class="ui secondary button">
+                Front Perspective
+            </button>
+            <button id="showSide" class="ui secondary button">
+                Side Perspective
+            </button>
+            <button id="showTop" class="ui secondary button">
+                Top Perspective
+            </button> -->
+            <div id="lighForm" class="ui form">
+                <h2>House sizes</h2>
+                <div class="fields">
+                    <div class="field">
+                        <label>Width</label>
+                        <input name='houseWidth' placeholder="1" type="text">
+                    </div>
+                    <div class="field">
+                        <label>Height</label>
+                        <input name='houseHeight' placeholder="1.5" type="text">
+                    </div>
+                    <div class="field">
+                        <label>Depth</label>
+                        <input name='houseDepth' placeholder="1" type="text">
+                    </div>
+                    <div class="field">
+                        <label>Roof Height</label>
+                        <input name='roofHeight' placeholder="Y position" type="text">
+                    </div>
+                </div>
+                <!-- <h2>Roof sizes</h2> -->
+                <!-- <div class="fields"> -->
+                    <!-- <div class="field">
+                        <label>Width</label>
+                        <input name='roofWidth' placeholder="X position" type="text">
+                    </div> -->
+                    <!-- <div class="field">
+                        <label>Height</label>
+                        <input name='roofHeight' placeholder="Y position" type="text">
+                    </div> -->
+                    <!-- <div class="field">
+                        <label>Depth</label>
+                        <input name='roofDepth' placeholder="Z position" type="text">
+                    </div> -->
+                <!-- </div> -->
+                <h2>Light controls</h2>
+                <div class="fields">
+                    <div class="field">
+                        <label>X position</label>
+                        <input name='x' placeholder="X position" type="text">
+                    </div>
+                    <div class="field">
+                        <label>Y position</label>
+                        <input name='y' placeholder="Y position" type="text">
+                    </div>
+                    <div class="field">
+                        <label>Z position</label>
+                        <input name='z' placeholder="Z position" type="text">
+                    </div>
+                    <div class="field">
+                        <label for="color">Shade</label>
+                        <input name="color" type="color">
+                    </div>
+                </div>
+                
+                <!-- <div id="generateLight" class="ui submit button">Submit</div> -->
+                <button id="showFront" class="ui submit button">
+                        Front Perspective
+                    </button>
+                    <button id="showSide" class="ui submit button">
+                        Side Perspective
+                    </button>
+                    <button id="showTop" class="ui submit button">
+                        Top Perspective
+                    </button>
+                <div class="ui error message"></div>
+            </form>
+
+            <!-- <div class="ui form">
+                <h2>Light controls</h2>
+                <div class="fields">
+                  <div class="field">
+                    <label>X position</label>
+                    <input placeholder="X position" type="text">
+                  </div>
+                  <div class="field">
+                    <label>Y position</label>
+                    <input placeholder="Y position" type="text">
+                  </div>
+                  <div class="field">
+                    <label>Z position</label>
+                    <input placeholder="Z position" type="text">
+                  </div>
+                </div>
+                <button id="generateLight" class="ui secondary button">
+                    Generate Light
+                </button>
+              </div> -->
+        </div>
+    </body>
+</html> 
